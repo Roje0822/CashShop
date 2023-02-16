@@ -1,0 +1,19 @@
+name: Cash
+main: com.roje.cash.CashMain
+author: Roje
+description: Minecraft Cash plugin
+
+version: 1.0.0
+api-version: 1.19
+
+depend: [ RojeLib ]
+
+commands:
+  cash:
+    aliases: [ 캐시 ]
+    description: 캐시 명령어
+    usage: /캐시
+  cashshop:
+    aliases: [ 캐시상점 ]
+    description: 캐시 상점 명령어
+    usage: /캐시상점
